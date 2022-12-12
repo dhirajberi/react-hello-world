@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// just right rafce and press enter
+import React from 'react' // just import react package
 
-function App() {
+// functional component
+const App = () => {
+  // It should always return JSX
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>Hello World</div>
+  )
 }
 
-export default App;
+export default App
